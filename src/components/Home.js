@@ -1,13 +1,14 @@
 import React from 'react'
 
 function Home(props) {
+    console.warn('components/home',props);
     return (
         <div>
            
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
-                    <img src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
+                    <img src="https://mobilemall.pk/public_html/images/product/product_1631794852iphone-13-pro-silver-select.png" />
                 </div>
                 <div className="text-wrapper item">
                     <span>

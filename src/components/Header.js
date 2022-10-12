@@ -1,7 +1,7 @@
 import React from 'react'
 function Header(props)
 {
-    console.warn(props.data)
+    console.warn('components/header',props.data)
     return(
         <div>
              <div className="add-to-cart">

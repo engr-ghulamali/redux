@@ -1,7 +1,7 @@
 import Home from '../components/Home'
 import {connect} from 'react-redux'
 import {addToCart} from '../service/actions/actions'
-
+console.log('containers/homeContainer');
 const mapStateToProps=state=>({
     // data:state.cardItems
 })

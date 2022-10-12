@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import {connect} from 'react-redux'
+console.log('containers/headerContainer');
 const mapStateToProps=state=>({
     data:state.cardItems
 })
